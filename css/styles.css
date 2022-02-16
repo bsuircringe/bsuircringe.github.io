@@ -27,7 +27,7 @@ header{
 	display: flex;
 }
 .wrapper{
-	max-width: 1600px;
+	min-width: 1600px;
 	margin:auto;
 }
 .top_block{
@@ -81,7 +81,6 @@ h1{
 	display: flex;
 	align-items: center;
 	height: 100%;
-	margin-left: 
 }
 .cent{
 	display: flex;
@@ -408,26 +407,64 @@ h2{
 	width: 1170px;
 	display: flex;
 	justify-content: space-between;
+    color: rgba(255,255,255,0.7);
 }
 .input__name{
 	width: 370px;
 	height: 48px;
 	background-color: rgba(128,128,128,0.0);
 	border: 1px solid #ffffff;
+    padding-left: 22px;
 }
 .input__email{
 	width: 370px;
 	height: 48px;
 	background-color: rgba(128,128,128,0.0);
 	border: 1px solid #ffffff;
+    padding-left: 22px;
+
 }
 .input__phone{
 	width: 370px;
 	height: 48px;
 	background-color: rgba(128,128,128,0.0);
 	border: 1px solid #ffffff;
+    padding-left: 22px;
+
 }
 .form__sender__info{
 	margin-left: 218px;
 	margin-top: 150px;
+    max-width: 1170px;
+}
+.form__sender__textarea{
+    width: 1167px;
+    height: 151px;
+    background-color: rgba(128,128,128,0.0);
+    border: 1px solid #ffffff;
+    margin-left: 218px;
+    margin-top: 39px;
+    resize: none;
+    padding: 22px;
+}
+.block9{
+    width: 1600px;
+    height: 332px;
+    background-color: #2a2a2a;
+    background-image: url(../img/map.jpg);
+}
+footer{
+    width: 1600px;
+    height: 116px;
+    background-color: #222222;
+    vertical-align: center;
+}
+.copyright{
+    margin-left: 220px;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
